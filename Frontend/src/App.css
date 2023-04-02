@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.todo{
+  background-color: white;
+}
+/* ----------------- header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* ----------------- marco */
+.marco {
+  border: 2px solid black;
+  padding: 20px;
+  width: 600px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.campos-de-texto div {
+  margin-bottom: 10px;
+}
+
+.campos-de-texto label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campos-de-texto input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.espacios-de-texto div {
+  margin-bottom: 20px;
+}
+
+.espacios-de-texto label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.espacios-de-texto textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 80px;
+}
+
+/* ----------------- importancia  */
+
+.campos-de-impor-comp {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.campos-de-impor-comp div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.campos-de-impor-comp label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campos-de-impor-comp input[type="number"] {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/* ----------------- boton */
+.buttons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.buttons button{
+  padding: 5px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color:aliceblue;
+  background-color: #333;
+}
