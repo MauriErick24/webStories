@@ -24,6 +24,9 @@ function App() {
           <ul>
             <li><a href="/">Inicio</a></li>
             <li><a href="#">Información del Proyecto</a></li>
+            <li><a href="#">Información del Proyectfdsfo</a></li>
+            <li><a href="#">Información del Proyecfdsfto</a></li>
+            <li><a href="#">Información del Proyecfdsfdsto</a></li>
           </ul>
         </nav>
       </header>
@@ -33,6 +36,7 @@ function App() {
           <Route path="/newUserStory" element={<NewUserSto />} />
           {/* <Route path="/updateUserStory/:id" element={<getUserStory />} /> */}
           <Route path="/" element={<Home />} />
+
         </Routes>
       </BrowserRouter>
     </div>
