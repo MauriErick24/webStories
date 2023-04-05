@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './Components/Home';
 import NewUserSto from './Components/NewUsSto';
 import Header from './Components/Header';
-
+import ProjectsScreen from './Components/ProjectsScreen';
 
 function App() {
   return (
@@ -22,9 +22,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/newUserStory" element={<NewUserSto />} />
+          <Route path="/newProject" element={<ProjectsScreen />} />
           {/* <Route path="/updateUserStory/:id" element={<getUserStory />} /> */}
+          {/* <Route path="/" element={<ProjectsScreen />} /> */}
           <Route path="/" element={<Home />} />
-
+          
         </Routes>
       </BrowserRouter>
     </div>

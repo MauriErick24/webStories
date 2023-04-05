@@ -7,10 +7,10 @@ const Home = () => {
       <h1>Bienvenidos a Web Stories</h1>
       <div className="buttons">
         <Link to="/newUserStory">
-          <button>Nueva historia de usuario</button>
+          <button>Nuevo Proyecto</button>
         </Link>
-        <Link to="/view-stories">
-          <button>Ver historias de usuario</button>
+        <Link to="/newProject">
+          <button>Ver mis proyectos</button>
         </Link>
       </div> 
     </div>
