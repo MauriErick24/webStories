@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './Components/Home';
 import NewUserSto from './Components/NewUsSto';
-
+import Screenproyecto from "./Components/Screenproyecto"
 
 
 function App() {
@@ -36,6 +36,7 @@ function App() {
           <Route path="/newUserStory" element={<NewUserSto />} />
           {/* <Route path="/updateUserStory/:id" element={<getUserStory />} /> */}
           <Route path="/" element={<Home />} />
+          <Route path="/Screenproyect" element={<Screenproyecto />} />
 
         </Routes>
       </BrowserRouter>
@@ -44,3 +45,4 @@ function App() {
 }
 
 export default App;
+
