@@ -44,9 +44,9 @@ app.get('/', (req, res)=>{
 });
 
 
-app.get('/userStory', (req, res) =>{
+app.get('/userStory/:id', (req, res) =>{
   console.log(req.params.user);
-    const query = 'select * from user_story where user_id = ' + req.params.user;
+    const query = 'select * from user_story where id_user_story = ' + req.params.id;
     db.query(query, (err, data) => {
       console.log(err, data);
       if (err) return res.json({ error: err.sqlMessage });

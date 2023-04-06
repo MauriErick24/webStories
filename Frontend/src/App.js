@@ -6,9 +6,11 @@ import Home from './Components/Home';
 import NewUserSto from './Components/NewUsSto';
 import Header from './Components/Header';
 import ProjectsScreen from './Components/ProjectsScreen';
+import SearchStory from './Components/UsStoTemplate';
 
 function App() {
   return (
+    
     <div className="App">
       {/* <UserStory 
         titles="Título de la historia"
@@ -23,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/newUserStory" element={<NewUserSto />} />
           <Route path="/newProject" element={<ProjectsScreen />} />
+          <Route path="/searchStory" element={<SearchStory id={1} />} />
           {/* <Route path="/updateUserStory/:id" element={<getUserStory />} /> */}
           {/* <Route path="/" element={<ProjectsScreen />} /> */}
           <Route path="/" element={<Home />} />
