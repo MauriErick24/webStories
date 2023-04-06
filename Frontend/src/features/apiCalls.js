@@ -2,6 +2,7 @@ import axios from 'axios';
 
 export const getUserStoryById = async(id) =>{
     try{
+        console.log(id);
         const response = await axios.get(`http://localhost:4000/userStory/${id}`);
         return response.data;
     }catch(e){
