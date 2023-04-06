@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import { Link } from 'react-router-dom';
 import {addUserStory} from '../features/apiCalls';
 
 const NewUserStory = () => {
@@ -67,7 +68,9 @@ const NewUserStory = () => {
               </div>
     
               <div className="buttons">
-                <button type="submit">Aceptar</button>
+                <Link to="/newProject">
+                  <button type="submit">Aceptar</button>
+                </Link>
               </div>
             </div>
           </form>
