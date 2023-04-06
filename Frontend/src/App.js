@@ -7,6 +7,7 @@ import NewUserSto from './Components/NewUsSto';
 import Header from './Components/Header';
 import ProjectsScreen from './Components/ProjectsScreen';
 import SearchStory from './Components/UsStoTemplate';
+import Notas from './Components/Notas';
 
 function App() {
   return (
