@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <h1>Bienvenidos a Web Stories</h1>
       <div className="buttons">
-        <Link to="/newUserStory">
+        <Link to="/Screenproyect">
           <button>Nuevo Proyecto</button>
         </Link>
         <Link to="/newProject">
