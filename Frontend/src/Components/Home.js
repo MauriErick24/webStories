@@ -12,6 +12,9 @@ const Home = () => {
         <Link to="/newProject">
           <button>Ver mis proyectos</button>
         </Link>
+        <Link to="/searchStory">
+          <button>Buscar Historia de usuario</button>
+        </Link>
       </div> 
     </div>
   );
