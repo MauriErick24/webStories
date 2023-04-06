@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 const Screenproyecto = () => {
     return (
         <div>
@@ -39,7 +40,9 @@ const Screenproyecto = () => {
                 }
             ></textarea>
             <div className="buttons">
-                <button type="submit">Crear nuevo proyecto</button>
+                <Link to="/NewUserStory">
+                    <button type="submit">Crear nuevo proyecto</button>
+                </Link>
             </div>
         </div>
     );
