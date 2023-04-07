@@ -35,7 +35,6 @@ function App() {
           <Route path="/Nota" element={<Notas />} />
           <Route path="/Screenproyect" element={<Screenproyecto />} />
 
-          
         </Routes>
       </BrowserRouter>
     </div>
