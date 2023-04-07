@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectBox from "./ProjectBox";
+import ProjectBox from "../Components/ProjectBox";
 const ProjectsScreen = () => {
     return (
         <div

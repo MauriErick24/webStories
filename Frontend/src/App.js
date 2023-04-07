@@ -2,27 +2,19 @@ import React from 'react';
 
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from './Components/Home';
+import Home from './Screens/Home';
 import NewUserSto from './Components/NewUsSto';
-import Screenproyecto from "./Components/Screenproyecto"
+import Screenproyecto from "./Screens/Screenproyecto"
 
 import Header from './Components/Header';
-import ProjectsScreen from './Components/ProjectsScreen';
-import SearchStory from './Components/UsStoTemplate';
+import ProjectsScreen from './Screens/ProjectsScreen';
+import SearchStory from './Screens/UsStoTemplate';
 import Notas from './Components/Notas';
 
 function App() {
   return (
     
     <div className="App">
-      {/* <UserStory 
-        titles="Título de la historia"
-        yo_como="Yo como..."
-        requiero="Requiero..."
-        tal_que="Tal que..."
-        importancia={3}
-        complejidad={5}
-      /> */}
       <Header />
       <BrowserRouter>
         <Routes>

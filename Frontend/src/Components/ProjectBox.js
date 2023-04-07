@@ -25,7 +25,7 @@ const ProjectBox = () => {
                 marginBottom: "10px" // Agregar margen inferior de 10px
               }}
             >
-              Mojito
+              Proyecto 1
             </h>
             <p
               style={{
@@ -33,7 +33,7 @@ const ProjectBox = () => {
                 marginTop: "20px", // Agregar margen superior de 10px
               }}
             >
-                Este es un mojito
+              Descripcion del proyecto
             </p>
           </button>
     );
