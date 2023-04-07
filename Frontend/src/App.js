@@ -4,6 +4,8 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './Components/Home';
 import NewUserSto from './Components/NewUsSto';
+import Screenproyecto from "./Components/Screenproyecto"
+
 import Header from './Components/Header';
 import ProjectsScreen from './Components/ProjectsScreen';
 import SearchStory from './Components/UsStoTemplate';
@@ -31,6 +33,8 @@ function App() {
           {/* <Route path="/" element={<ProjectsScreen />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/Nota" element={<Notas />} />
+          <Route path="/Screenproyect" element={<Screenproyecto />} />
+
           
         </Routes>
       </BrowserRouter>
@@ -39,3 +43,4 @@ function App() {
 }
 
 export default App;
+
