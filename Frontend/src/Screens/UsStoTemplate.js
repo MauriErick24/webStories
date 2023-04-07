@@ -49,7 +49,8 @@ function UserStoryTemplate(id) {
     setUserYocomo(usArr.yo_como);
     setUserRequiero(usArr.requiero);
     setUserTalque(usArr.tal_que);
-    setUserCriterioA(usArr.importancia);
+    setUserCriterioA(usArr.criterio_aceptacion);
+    setUserImportancia(usArr.importancia);
     setUserComplejidad(usArr.complejidad);
 
   }

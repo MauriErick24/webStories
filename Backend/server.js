@@ -9,20 +9,20 @@ const port = 4000;
 
 const app = express();
 
-// const db = mysql.createConnection({
-//     host: 'localhost',
-//     user: 'root',
-//     password: 'root',
-//     database: 'sisinf',
-// });
-
 const db = mysql.createConnection({
-  host: 'containers-us-west-126.railway.app',
-  port: 7182,
-  user: 'root',
-  password: 'nhGy2mhQCBwzNNBGU3bY',
-  database: 'railway',
+    host: 'localhost',
+    user: 'root',
+    password: 'root',
+    database: 'sisinf',
 });
+
+// const db = mysql.createConnection({
+//   host: 'containers-us-west-126.railway.app',
+//   port: 7182,
+//   user: 'root',
+//   password: 'nhGy2mhQCBwzNNBGU3bY',
+//   database: 'railway',
+// });
 
 db.connect((err) => {
     if (err) throw err;
