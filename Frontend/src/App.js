@@ -9,6 +9,7 @@ import Screenproyecto from "./Components/Screenproyecto"
 import Header from './Components/Header';
 import ProjectsScreen from './Components/ProjectsScreen';
 import SearchStory from './Components/UsStoTemplate';
+import Notas from './Components/Notas';
 
 function App() {
   return (
@@ -31,9 +32,9 @@ function App() {
           {/* <Route path="/updateUserStory/:id" element={<getUserStory />} /> */}
           {/* <Route path="/" element={<ProjectsScreen />} /> */}
           <Route path="/" element={<Home />} />
+          <Route path="/Nota" element={<Notas />} />
           <Route path="/Screenproyect" element={<Screenproyecto />} />
 
-          
         </Routes>
       </BrowserRouter>
     </div>
